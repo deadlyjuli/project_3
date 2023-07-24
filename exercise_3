@@ -1,0 +1,23 @@
+#Names
+friends = ['julie', 'werner','robert']
+print(friends[0])
+print(friends[1])
+print(friends[2])
+
+#Greetings
+friends = ['julie', 'werner','robert']
+message = "I love my friend " + friends[0].title() + "."
+print(message)
+message = "I love my friend " + friends[1].title() + "."
+print(message)
+message = "I love my friend " + friends[2].title() + "."
+print(message)
+
+#Your own list
+transportation = ['tubes','bus','bike']
+message = "I would like to own a\t" + transportation[0].title() + "."
+print(message)
+message = "I would like to own a\t" + transportation[1].title() + "."
+print(message)
+message = "I would like to own a\t" + transportation[2].title() + "."
+print(message)
